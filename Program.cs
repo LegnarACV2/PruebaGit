@@ -15,7 +15,9 @@ namespace PruebaGit
             int num2;
             double resultado;
 
+            Console.Write("Ingrese el primer numero");
             num1 = int.Parse(Console.ReadLine());
+            Console.Write("Ingrese el segundo numero");
             num2 = int.Parse(Console.ReadLine());
 
             resultado = num1 + num2;
